@@ -15,9 +15,10 @@ public class BeerSong {
 			System.out.println("Take one down.");
 			System.out.println("Pass it around.");
 			beerNum = beerNum -1;
-			
-			if (beerNum > 0) {
-				System.out.println(beerNum + " " + word + " of beer on the wall");
+		
+			if (beerNum > 0 && beerNum ==1 ) {
+				word = "bottle";
+				System.out.println(beerNum + " " + word + " of beer on the wal");
 			} else {
 				System.out.println("No more bottles of beeer on the wall");
 			}
